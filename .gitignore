@@ -16,7 +16,8 @@ node_modules/
 
 # Compiled Dynamic libraries
 *.so
-*.dylib
+# Keep libpd dynamic library for now until supporting build
+# *.dylib
 *.dll
 
 # Fortran module files
