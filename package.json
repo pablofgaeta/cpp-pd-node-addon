@@ -1,0 +1,16 @@
+{
+  "name": "pdtools",
+  "version": "0.0.0",
+  "description": "PD Tools",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "nan": "^2.0.0"
+  },
+  "scripts": {
+    "test": "node index.js",
+    "postinstall": "cp build/Release/pdtools ./pdtools"
+  },
+  "gypfile": true
+}
